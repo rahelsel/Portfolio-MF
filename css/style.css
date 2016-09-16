@@ -1,26 +1,34 @@
 /*//BACKGROUND IMG//*/
-html {
-  background: url("img/nosara.jpg") no-repeat center center fixed;
+body {
+  background: url("../img/nosara.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 .wrapper {
   min-height: calc(100vh - 120px);
   }
+
 /*//TITLE TEXT//*/
 h1 {
   color: white;
-  font-family: sans-serif;
+  font-family: 'Open Sans';
   font-size: 65px;
+  margin-top: 25px;
+  margin-bottom: -5px;
+  margin-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+/*//ABOUT SECTION//*/
+.about {
+  display: inline-block;
+  float: left;
 }
 /*//FOOTER//*/
 footer {
-  background: gray;
   width: 100%;
   height: 75px;
   border-radius: 0px 0px 5px 5px;
   clear: both;
-  opacity: 0.75;
 }
 
 footer img {
@@ -31,21 +39,14 @@ footer img {
 
 footer ul {
   float: right;
-  margin-right: 20px;
-  margin-top: 23px;
+  margin-right: 5px;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 footer ul li {
   float: right;
   margin-right: 30px;
-}
-
-footer p {
-  float: left;
-  margin: 28px 45px;
-  font-family: Helvetica;
-  color: #FFF;
-  font-size: 17px;
 }
 
 footer img:hover {

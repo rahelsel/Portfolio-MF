@@ -1,0 +1,53 @@
+.wrapper {
+  float: left;
+  padding: 0 0 .2em 1em;
+}
+/*//ALL ICONOMOON//*/
+.icon-menu3 {
+  color: white;
+  font-size: 35px;
+}
+.icon-spotify {
+  color: white;
+  text-decoration: none;
+}
+.icon-vimeo {
+  color: white;
+  text-decoration: none;
+}
+.icon-home {
+  color: white;
+  text-decoration: none;
+}
+.icon-calendar {
+  color: white;
+  text-decoration: none;
+}
+.main-nav {
+  padding: 0.1em;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: white;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav li {
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+  border-bottom: 1px solid #ccc;
+}
+
+.template {
+  display: none;
+}
