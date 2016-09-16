@@ -1,5 +1,5 @@
 /*//BACKGROUND IMG//*/
-html {
+body {
   background: url("../img/nosara.jpg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -7,15 +7,21 @@ html {
 .wrapper {
   min-height: calc(100vh - 120px);
   }
+
 /*//TITLE TEXT//*/
 h1 {
   color: white;
   font-family: 'Open Sans';
   font-size: 65px;
-  margin-top: 60px;
-  margin-bottom: -30px;
+  margin-top: 25px;
+  margin-bottom: -5px;
   margin-left: 10px;
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+/*//ABOUT SECTION//*/
+.about {
+  display: inline-block;
+  float: left;
 }
 /*//FOOTER//*/
 footer {
@@ -42,14 +48,6 @@ footer ul li {
   float: right;
   margin-right: 30px;
 }
-
-/*footer p {
-  float: left;
-  margin: 87px 21px;
-  font-family: Helvetica;
-  color: #FFF;
-  font-size: 12px;
-}*/
 
 footer img:hover {
   cursor: pointer;
