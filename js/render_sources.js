@@ -10,6 +10,28 @@ function Schedule(schedule) {
 }
 
 Schedule.prototype.toHtml = function() {
-  var $scheduleTemplate = $'(.template').clone();
-  
+  var $scheduleTemplate = $('.template').clone();
+  $scheduleTemplate.find('h2').text(this.studioLocation);
+  $scheduleTemplate.removeClass('template');
+  $scheduleTemplate.addClass('schedule');
+  return $scheduleTemplate;
+};
+
+function newAndSort() {
+  schedule.forEach(function(schedule) {
+    studioSchedule.push(new Schedule(schedule));
+  });
 }
+
+function render() {
+  studioSchedule.forEach(function(schedule){
+    $('#schedules').append(schedule.toHtml());
+  });
+}
+
+function init() {
+  newAndSort();
+  render();
+}
+
+init();
