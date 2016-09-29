@@ -1,11 +1,11 @@
 /*//BACKGROUND IMG//*/
-body {
-  background: url("../img/nosara.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
 .wrapper {
   min-height: calc(100vh - 120px);
+  outline: 3 px dotted red;
+  background: url("../img/nosara.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
   }
 
 /*//TITLE TEXT//*/
@@ -19,8 +19,8 @@ h1 {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 /*//ABOUT SECTION//*/
-.about {
-  display: inline-block;
+#about {
+  margin-top: 20px;
   float: left;
 }
 /*//FOOTER//*/
